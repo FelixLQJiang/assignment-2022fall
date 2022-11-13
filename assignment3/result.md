@@ -1,8 +1,8 @@
 # Assignment 3 of CS269 2022 Fall
 
-**NAME:** [TODO]
+**NAME:** Linqiao Jiang
 
-**UID:** [TODO]
+**UID:** 905542286
 
 
 ## Learning curves of TD3

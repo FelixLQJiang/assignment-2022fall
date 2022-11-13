@@ -230,7 +230,6 @@ class GAILTrainer(PPOTrainer):
         # [TODO] Implement policy loss and replace the advantages by gail_rewards.
         policy_loss = None
         ratio = None  # The importance sampling factor, the ratio of new policy prob over old policy prob
-        pass
 
         # This is the total loss
         loss = policy_loss - self.config.entropy_loss_weight * dist_entropy
@@ -287,15 +286,18 @@ class GAILTrainer(PPOTrainer):
         ratio_epoch = []
         for e in range(self.config.generator_epoch):
             data_generator = rollout.feed_forward_generator(None, self.mini_batch_size)
+
             for sample in data_generator:
                 total_loss, policy_loss, gail_reward_mean, dist_entropy, ratio = self.compute_loss(sample)
                 self.optimizer.zero_grad()
                 total_loss.backward()
+
                 if self.config.grad_norm_max:
                     norm = torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.grad_norm_max)
                     norm = norm.item()
                 else:
                     norm = 0.0
+                    
                 self.optimizer.step()
 
                 gail_reward_mean_epoch.append(gail_reward_mean.item())

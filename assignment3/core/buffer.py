@@ -101,8 +101,9 @@ class PPORolloutStorage(BaseRolloutStorage):
                 #  * The for-loop is in a reverse order, so the variable
                 #   `step` is started from `num_steps`
 
-                # self.returns[step] = None
-                pass
+                delta = self.rewards[step] + gamma * self.value_preds[step + 1] * self.masks[step + 1] - self.value_preds[step]
+                gae = delta + gamma * self.gae_lambda * self.masks[step + 1] * gae
+                self.returns[step] = gae + self.value_preds[step]
 
         else:
             raise NotImplementedError()
