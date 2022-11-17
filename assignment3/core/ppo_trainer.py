@@ -234,7 +234,7 @@ class PPOTrainer:
         ratio = torch.exp(action_log_probs - old_action_log_probs_batch)
         surr1 = ratio * adv_targ
         surr2 = torch.clamp(ratio, 1.0 - self.clip_param, 1.0 + self.clip_param) * adv_targ
-        policy_loss = -torch.min(surr1, surr2).mean()
+        policy_loss = -torch.min(surr1, surr2)
         
         # The value loss
         vf_clip_param = 10.0
@@ -275,19 +275,16 @@ class PPOTrainer:
                 total_loss, policy_loss, value_loss, dist_entropy, ratio = self.compute_loss(sample)
 
                 # [TODO] Update policy by minimizing total_loss, applied gradient clipping if needed.
-                # self.optimizer.zero_grad()
-                # total_loss.backward()
+                self.optimizer.zero_grad()
+                total_loss.backward()
                 
                 if self.config.grad_norm_max:
-                    self.optimizer.zero_grad()
-                    total_loss.backward()
                     norm = torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.grad_norm_max)
                     norm = norm.item()
-                    self.optimizer.step()
                 else:
                     norm = 0.0
                 
-                # self.optimizer.step()
+                self.optimizer.step()
 
                 value_loss_epoch.append(value_loss.item())
                 policy_loss_epoch.append(policy_loss.item())
