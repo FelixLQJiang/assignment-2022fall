@@ -228,8 +228,12 @@ class GAILTrainer(PPOTrainer):
         assert dist_entropy.requires_grad
 
         # [TODO] Implement policy loss and replace the advantages by gail_rewards.
-        policy_loss = None
-        ratio = None  # The importance sampling factor, the ratio of new policy prob over old policy prob
+ 
+        # The importance sampling factor, the ratio of new policy prob over old policy prob
+        ratio = torch.exp(action_log_probs - old_action_log_probs_batch)
+        surr1 = ratio
+        surr2 = torch.clamp(ratio, 1.0 - self.clip_param, 1.0 + self.clip_param)
+        policy_loss = -torch.min(surr1, surr2)
 
         # This is the total loss
         loss = policy_loss - self.config.entropy_loss_weight * dist_entropy
@@ -256,15 +260,17 @@ class GAILTrainer(PPOTrainer):
 
                 # [TODO]: Call the discriminator to get the prediction of agent and expert's state-action pairs.
                 #  and flatten the tensor by calling .flatten()
-                agent_prediction = None
-                expert_prediction = None
-                pass
+                # agent_prediction = agent_data[2].flatten()
+                agent_prediction = self.trunk(torch.cat([agent_generated_obs, agent_generated_actions], dim=1))
+                # expert_prediction = expert_data[2].flatten()
+                expert_prediction = self.trunk(torch.cat([expert_generated_obs, expert_generated_actions], dim=1))
 
                 # [TODO]: Compute the discriminator loss using discriminator_loss_func.
                 # Hint: We should assume the ground-truth label for all agent_prediction to be 0 and
                 # expert_prediction to be 1. This is the essence of GAIL.
-                discriminator_loss = None
-                pass
+                agent_loss  = discriminator_loss_func(agent_prediction, torch.zeros(agent_prediction.size()).to(self.device))
+                expert_loss = discriminator_loss_func(expert_prediction, torch.ones(expert_prediction.size()).to(self.device))
+                discriminator_loss = agent_loss + expert_loss
 
                 # For stats
                 with torch.no_grad():
