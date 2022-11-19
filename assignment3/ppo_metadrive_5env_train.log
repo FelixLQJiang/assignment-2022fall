@@ -1,0 +1,29 @@
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/felix/miniconda3/envs/cs269/lib/python3.9/site-packages/torch/cuda/__init__.py:88: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Traceback (most recent call last):
+  File "/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/train_ppo.py", line 137, in <module>
+    trainer.load_w(log_dir, "final")
+  File "/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core/ppo_trainer.py", line 212, in load_w
+    raise ValueError("Failed to load weights from {}! File does not exist!".format(save_path))
+ValueError: Failed to load weights from /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-5Env-v0/ppo/checkpoint-final.pkl! File does not exist!

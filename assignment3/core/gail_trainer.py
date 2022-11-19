@@ -261,9 +261,9 @@ class GAILTrainer(PPOTrainer):
                 # [TODO]: Call the discriminator to get the prediction of agent and expert's state-action pairs.
                 #  and flatten the tensor by calling .flatten()
                 # agent_prediction = agent_data[2].flatten()
-                agent_prediction = self.trunk(torch.cat([agent_generated_obs, agent_generated_actions], dim=1))
-                # expert_prediction = expert_data[2].flatten()
-                expert_prediction = self.trunk(torch.cat([expert_generated_obs, expert_generated_actions], dim=1))
+                agent_prediction = self.model.compute_prediction(agent_generated_obs, agent_generated_actions).flatten()
+                # expert_prediction = exper3t_data[2].flatten()
+                expert_prediction = self.model.compute_prediction(expert_generated_obs, expert_generated_actions).flatten()
 
                 # [TODO]: Compute the discriminator loss using discriminator_loss_func.
                 # Hint: We should assume the ground-truth label for all agent_prediction to be 0 and

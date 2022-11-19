@@ -9,19 +9,19 @@
 
 (20 points are given to the code.)
 
-### TD3 in CartPole
+### TD3 in Pendulum
 
 (5 points)
 
 [TODO]
-
+![](pendulum-td3.png)
 
 ### TD3 in MetaDrive-Tut-Easy-v0
 
 (5 points)
 
 [TODO]
-
+![](metadrive-easy-td3.png)
 
 
 ## Learning curves of PPO
@@ -32,19 +32,16 @@
 
 (2 points)
 
-![](cartpole-ppo.png)
-
 [TODO: Replace to your figure]
-
+![](cartpole-ppo.png)
 
 
 ### PPO in MetaDrive-Tut-Easy-v0
 
 (3 points)
 
-![](metadrive-easy-ppo.png)
-
 [TODO: Replace to your figure]
+![](metadrive-easy-ppo.png)
 
 
 ## Learning curves of GAIL
@@ -56,7 +53,7 @@
 (5 points)
 
 [TODO]
-
+![](metadrive-easy-gail.png)
 
 
 
