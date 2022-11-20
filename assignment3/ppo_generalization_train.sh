@@ -14,7 +14,7 @@ for num in 1 5; do
   > ppo_metadrive_${num}env_train.log 2>&1 &
 done
 
-# for num in 10 20 50 100; do
+# for num in 5 10 20 50 100; do
 #   python train_ppo.py \
 #   --env-id MetaDrive-Tut-${num}Env-v0 \
 #   --log-dir MetaDrive-Tut-${num}Env-v0 \
