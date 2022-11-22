@@ -84,7 +84,9 @@ Please discuss the figure you get.
 
 [TODO]: Discuss the figure. Does it look normal? If not, why? Do you have any solution?
 
-The graph we got is **not normal**.
+The graph we got is **not normal**. Since I decrease *num-envs* from 10 to 5, the two lines in the graph do not converge.
+
+My solution will be tring increase *num-envs* value and *num-epoch* value.
 
 
 
