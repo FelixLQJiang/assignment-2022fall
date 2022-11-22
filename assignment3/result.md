@@ -80,9 +80,12 @@ Please discuss the figure you get.
 (20 points are given to the figure.)
 
 [TODO]
-
+![](ppo_generalization.png)
 
 [TODO]: Discuss the figure. Does it look normal? If not, why? Do you have any solution?
+
+The graph we got is **not normal**.
+
 
 
 
@@ -93,6 +96,9 @@ In this section, you are free to write down your ideas and discussion.
 You can also leave this section blank.
 If you conduct extra experiments, please record them here.
 
+[Bonus]
+GAIL_generalization
+![](gail_generalization.png)
 
 
 

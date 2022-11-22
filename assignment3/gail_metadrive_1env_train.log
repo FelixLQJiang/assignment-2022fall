@@ -1,459 +1,1860 @@
 /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
 /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
 Successfully load weights from /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core/checkpoint-expert.pkl!
-Generated 1000/30000 steps from the expert. Average episode reward: 245.908, success rate: 0.000
-Generated 2000/30000 steps from the expert. Average episode reward: 248.558, success rate: 0.000
-Generated 3000/30000 steps from the expert. Average episode reward: 247.683, success rate: 0.000
-Generated 30000 steps from the expert. Average episode reward: 247.683, success rate: 0.000
+Generated 1000/30000 steps from the expert. Average episode reward: 261.689, success rate: 0.000
+Generated 2000/30000 steps from the expert. Average episode reward: 252.782, success rate: 0.000
+Generated 3000/30000 steps from the expert. Average episode reward: 251.092, success rate: 0.000
+Generated 4000/30000 steps from the expert. Average episode reward: 256.506, success rate: 0.000
+Generated 5000/30000 steps from the expert. Average episode reward: 254.274, success rate: 0.000
+Generated 6000/30000 steps from the expert. Average episode reward: 252.342, success rate: 0.000
+Generated 30000 steps from the expert. Average episode reward: 252.342, success rate: 0.000
 Start training!
 ===== gail Training Iteration 0 =====:
   adv_mean: null
-  discriminator_loss: 0.5086122463146846
-  entropy: 2.7774252008169125
-  episode_reward: 8.311131849354183
-  frame_per_second: 410
-  gail_reward: 0.018792261299080192
-  grad_norm: 1.6543266696807666
+  discriminator_loss: 0.8925819639976208
+  entropy: 2.705663161400037
+  episode_reward: 7.72388055188697
+  frame_per_second: 374
+  gail_reward: 0.057352749162759536
+  grad_norm: 1.3036660217321836
   iteration: 0
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.999798389734366
-  ratio: 0.9998018390857256
+  policy_loss: -1.0030494590600332
+  ratio: 1.0031891336807839
   success_rate: 0.0
-  total_episodes: 17
-  total_loss: -0.9997983866013014
-  total_steps: 20000
-  total_time: 48.6909875869751
+  total_episodes: 8
+  total_loss: -1.0030494602826925
+  total_steps: 10000
+  total_time: 26.72730565071106
 
 Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter0.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
 ===== gail Training Iteration 1 =====:
   adv_mean: null
-  discriminator_loss: 0.06635336671740963
-  entropy: 2.624360057635185
-  episode_reward: 7.5202799057969685
-  frame_per_second: 406
-  gail_reward: 0.01118689222046389
-  grad_norm: 0.74066153860245
+  discriminator_loss: 0.24627085131330367
+  entropy: 2.662557405080551
+  episode_reward: 4.957052734714438
+  frame_per_second: 355
+  gail_reward: 0.03485810473465767
+  grad_norm: 1.4554066000840602
   iteration: 1
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.00058601636153
-  ratio: 1.0006180812915166
+  policy_loss: -0.9998699935582968
+  ratio: 0.999956096135653
   success_rate: 0.0
-  total_episodes: 48
-  total_loss: -1.0005860198766758
-  total_steps: 40000
-  total_time: 98.3309953212738
+  total_episodes: 28
+  total_loss: -0.9998699934054643
+  total_steps: 20000
+  total_time: 56.24684143066406
 
 ===== gail Training Iteration 2 =====:
   adv_mean: null
-  discriminator_loss: 0.04462709226048528
-  entropy: 2.6301942699994796
-  episode_reward: 7.75232473063655
-  frame_per_second: 409
-  gail_reward: 0.010967550469705692
-  grad_norm: 0.8827668241965465
+  discriminator_loss: 0.10623306181186284
+  entropy: 2.5577344570404446
+  episode_reward: 4.129619989400661
+  frame_per_second: 348
+  gail_reward: 0.022837286946387626
+  grad_norm: 0.9069357130772028
   iteration: 2
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0000475069651238
-  ratio: 1.0001847478823784
+  policy_loss: -1.0028018572391608
+  ratio: 1.002875339679229
   success_rate: 0.0
-  total_episodes: 74
-  total_loss: -1.000047508187783
-  total_steps: 60000
-  total_time: 146.44676685333252
+  total_episodes: 47
+  total_loss: -1.0028018621297983
+  total_steps: 30000
+  total_time: 86.03640866279602
 
 ===== gail Training Iteration 3 =====:
   adv_mean: null
-  discriminator_loss: 0.037959153921558304
-  entropy: 2.5167216453796777
-  episode_reward: 7.483359542195887
-  frame_per_second: 412
-  gail_reward: 0.008428802961507479
-  grad_norm: 1.1867347862475957
+  discriminator_loss: 0.07990286299624504
+  entropy: 2.471369725618607
+  episode_reward: 4.6077062754346745
+  frame_per_second: 344
+  gail_reward: 0.027100904061435126
+  grad_norm: 1.325089156627655
   iteration: 3
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0012309947074989
-  ratio: 1.0012755176195731
+  policy_loss: -1.002652443219454
+  ratio: 1.002805345180707
   success_rate: 0.0
-  total_episodes: 97
-  total_loss: -1.0012309992924715
-  total_steps: 80000
-  total_time: 193.70817255973816
+  total_episodes: 61
+  total_loss: -1.002652451930902
+  total_steps: 40000
+  total_time: 116.14299774169922
 
 ===== gail Training Iteration 4 =====:
   adv_mean: null
-  discriminator_loss: 0.035319005127232045
-  entropy: 2.3609484030650214
-  episode_reward: 7.396318351115284
-  frame_per_second: 410
-  gail_reward: 0.007531142137490977
-  grad_norm: 0.99413310671464
+  discriminator_loss: 0.07167150129874547
+  entropy: 2.3768600946817644
+  episode_reward: 4.084364883230437
+  frame_per_second: 341
+  gail_reward: 0.020455626145196266
+  grad_norm: 1.2283602907107427
   iteration: 4
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0007826960239654
-  ratio: 1.0008269224411401
+  policy_loss: -1.0035296210875877
+  ratio: 1.0037679627919809
   success_rate: 0.0
-  total_episodes: 123
-  total_loss: -1.000782691515409
-  total_steps: 100000
-  total_time: 243.80507135391235
+  total_episodes: 80
+  total_loss: -1.0035296259782254
+  total_steps: 50000
+  total_time: 146.3937964439392
 
 ===== gail Training Iteration 5 =====:
   adv_mean: null
-  discriminator_loss: 0.029175231784271696
-  entropy: 2.313466980212774
-  episode_reward: 7.9791020507897565
-  frame_per_second: 410
-  gail_reward: 0.011108064944617068
-  grad_norm: 1.6804776731209876
+  discriminator_loss: 0.062345593370115145
+  entropy: 2.2547876492524757
+  episode_reward: 4.826223083067754
+  frame_per_second: 342
+  gail_reward: 0.014961085595095005
+  grad_norm: 2.6984449991813073
   iteration: 5
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0006140689819287
-  ratio: 1.0006564285510626
+  policy_loss: -1.0012497982917687
+  ratio: 1.0014292558034261
   success_rate: 0.0
-  total_episodes: 145
-  total_loss: -1.0006140708159177
-  total_steps: 120000
-  total_time: 292.6323232650757
+  total_episodes: 92
+  total_loss: -1.0012497985974336
+  total_steps: 60000
+  total_time: 175.42650437355042
 
 ===== gail Training Iteration 6 =====:
   adv_mean: null
-  discriminator_loss: 0.028732314196904786
-  entropy: 2.197123599663759
-  episode_reward: 9.18045075779245
-  frame_per_second: 408
-  gail_reward: 0.013681335473815217
-  grad_norm: 1.5202294416916675
+  discriminator_loss: 0.061337199491950184
+  entropy: 2.1479450311416235
+  episode_reward: 4.8156011920375486
+  frame_per_second: 340
+  gail_reward: 0.01819155204277008
+  grad_norm: 2.3795553372456477
   iteration: 6
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.000455558529267
-  ratio: 1.000548767967102
+  policy_loss: -1.0001503942868648
+  ratio: 1.0005887875190147
   success_rate: 0.0
-  total_episodes: 168
-  total_loss: -1.0004555649482287
-  total_steps: 140000
-  total_time: 342.303457736969
+  total_episodes: 106
+  total_loss: -1.0001503935227027
+  total_steps: 70000
+  total_time: 205.8674192428589
 
 ===== gail Training Iteration 7 =====:
   adv_mean: null
-  discriminator_loss: 0.026037364782025226
-  entropy: 2.047067210613153
-  episode_reward: 11.035036168247165
-  frame_per_second: 406
-  gail_reward: 0.004917472097813748
-  grad_norm: 1.2375302103467476
+  discriminator_loss: 0.05941356293952618
+  entropy: 2.0499986437650826
+  episode_reward: 4.926305572485425
+  frame_per_second: 337
+  gail_reward: 0.0278514075689973
+  grad_norm: 1.45985149817589
   iteration: 7
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0004513688576526
-  ratio: 1.0005616418062113
+  policy_loss: -1.0016917667327783
+  ratio: 1.001786747192725
   success_rate: 0.0
-  total_episodes: 188
-  total_loss: -1.00045137153222
-  total_steps: 160000
-  total_time: 393.92967200279236
+  total_episodes: 127
+  total_loss: -1.0016917671912755
+  total_steps: 80000
+  total_time: 236.99798226356506
 
 ===== gail Training Iteration 8 =====:
   adv_mean: null
-  discriminator_loss: 0.0226573823676564
-  entropy: 2.0191363024405944
-  episode_reward: 11.981184602271309
-  frame_per_second: 403
-  gail_reward: 0.001751246814614532
-  grad_norm: 1.2592603996778147
+  discriminator_loss: 0.05789017838258774
+  entropy: 1.9369303471002823
+  episode_reward: 4.1753788825826845
+  frame_per_second: 339
+  gail_reward: 0.01283460369047064
+  grad_norm: 1.9044480990140866
   iteration: 8
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9996189890763698
-  ratio: 0.9997587393491696
+  policy_loss: -1.0019560248423844
+  ratio: 1.0021630241320683
   success_rate: 0.0
-  total_episodes: 208
-  total_loss: -0.9996189880829591
-  total_steps: 180000
-  total_time: 446.1365523338318
+  total_episodes: 157
+  total_loss: -1.0019560202574118
+  total_steps: 90000
+  total_time: 265.3227756023407
 
 ===== gail Training Iteration 9 =====:
   adv_mean: null
-  discriminator_loss: 0.024063880438468632
-  entropy: 1.9387172309251932
-  episode_reward: 12.878809006905703
-  frame_per_second: 403
-  gail_reward: 0.007484865207404184
-  grad_norm: 1.3601945544282594
+  discriminator_loss: 0.056489521465622465
+  entropy: 1.893262927654462
+  episode_reward: 0.440134897035429
+  frame_per_second: 340
+  gail_reward: 0.030868224355463797
+  grad_norm: 1.8251285603413214
   iteration: 9
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0025516908138226
-  ratio: 1.0026860478596809
+  policy_loss: -0.9986359253907815
+  ratio: 0.9989067478057666
   success_rate: 0.0
-  total_episodes: 228
-  total_loss: -1.002551696392206
-  total_steps: 200000
-  total_time: 495.41740703582764
+  total_episodes: 209
+  total_loss: -0.9986359252379491
+  total_steps: 100000
+  total_time: 293.57758474349976
 
 ===== gail Training Iteration 10 =====:
   adv_mean: null
-  discriminator_loss: 0.02246874158199017
-  entropy: 1.9184831521449945
-  episode_reward: 13.021881115026297
-  frame_per_second: 403
-  gail_reward: 0.011127136927098037
-  grad_norm: 1.534508632390927
+  discriminator_loss: 0.05041706403956199
+  entropy: 1.895165479183197
+  episode_reward: -1.3158429389922273
+  frame_per_second: 342
+  gail_reward: 0.02647181554721334
+  grad_norm: 2.159060845313928
   iteration: 10
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9997784147659937
-  ratio: 0.9998981440678621
+  policy_loss: -0.9999436632180825
+  ratio: 1.0001002991810823
   success_rate: 0.0
-  total_episodes: 251
-  total_loss: -0.9997784145367451
-  total_steps: 220000
-  total_time: 545.8744323253632
+  total_episodes: 262
+  total_loss: -0.9999436604670989
+  total_steps: 110000
+  total_time: 321.31500124931335
 
 Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter10.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
 ===== gail Training Iteration 11 =====:
   adv_mean: null
-  discriminator_loss: 0.022501786750926372
-  entropy: 1.901478717265985
-  episode_reward: 12.591106471741123
-  frame_per_second: 401
-  gail_reward: 0.006084037153050304
-  grad_norm: 1.5017002662787071
+  discriminator_loss: 0.05457106131391647
+  entropy: 1.814868093148256
+  episode_reward: -1.5110299620453884
+  frame_per_second: 340
+  gail_reward: 0.014110816969798925
+  grad_norm: 1.7073963229472822
   iteration: 11
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.999525132851723
-  ratio: 0.9996215037046334
+  policy_loss: -1.0009822240242592
+  ratio: 1.0010750171465752
   success_rate: 0.0
-  total_episodes: 276
-  total_loss: -0.9995251331573878
-  total_steps: 240000
-  total_time: 597.55521297454===== gail Training Iteration 12 =====:
+  total_episodes: 330
+  total_loss: -1.000982225094086
+  total_steps: 120000
+  total_time: 352.04654479026794
+
+===== gail Training Iteration 12 =====:
   adv_mean: null
-  discriminator_loss: 0.02172292784626524
-  entropy: 1.623134072468831
-  episode_reward: 10.143593399177346
-  frame_per_second: 301
-  gail_reward: 0.002862981035753201
-  grad_norm: 1.839241442695642
+  discriminator_loss: 0.044069721416021
+  entropy: 1.6763416871046408
+  episode_reward: -1.6232689472073625
+  frame_per_second: 341
+  gail_reward: 0.02032006228199372
+  grad_norm: 1.929532525019768
   iteration: 12
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0018663602761733
-  ratio: 1.0019627810288698
+  policy_loss: -1.0008839345895326
+  ratio: 1.0010402859785619
   success_rate: 0.0
-  total_episodes: 308
-  total_loss: -1.0018663650139785
-  total_steps: 260000
-  total_time: 863.3163106441498
+  total_episodes: 384
+  total_loss: -1.0008839365763542
+  total_steps: 130000
+  total_time: 380.31936049461365
 
 ===== gail Training Iteration 13 =====:
   adv_mean: null
-  discriminator_loss: 0.019342431312617966
-  entropy: 1.519202928359692
-  episode_reward: 8.93368190076328
-  frame_per_second: 299
-  gail_reward: 0.004791044196537815
-  grad_norm: 2.1409023637955005
+  discriminator_loss: 0.0458910904203852
+  entropy: 1.542298244818663
+  episode_reward: -1.3630120318039047
+  frame_per_second: 343
+  gail_reward: 0.009225236292546376
+  grad_norm: 2.429355104458638
   iteration: 13
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0010718710147417
-  ratio: 1.0012220105299583
+  policy_loss: -1.0011191554558583
+  ratio: 1.0012446353068718
   success_rate: 0.0
-  total_episodes: 343
-  total_loss: -1.0010718711675741
-  total_steps: 280000
-  total_time: 933.5723719596863
+  total_episodes: 432
+  total_loss: -1.0011191592766688
+  total_steps: 140000
+  total_time: 407.79778146743774
 
 ===== gail Training Iteration 14 =====:
   adv_mean: null
-  discriminator_loss: 0.022085501055997343
-  entropy: 1.3520936897167792
-  episode_reward: 2.369109279366462
-  frame_per_second: 297
-  gail_reward: 0.0009662318762797767
-  grad_norm: 3.001378242786114
+  discriminator_loss: 0.042880557463146174
+  entropy: 1.5311673742074232
+  episode_reward: -1.2007309433467261
+  frame_per_second: 343
+  gail_reward: 0.0057677915964562156
+  grad_norm: 2.7046395738919577
   iteration: 14
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0010759260409918
-  ratio: 1.0011479537456462
+  policy_loss: -0.9994448111607478
+  ratio: 0.9995023030501146
   success_rate: 0.0
-  total_episodes: 416
-  total_loss: -1.0010759285627266
-  total_steps: 300000
-  total_time: 1009.0263273715973
+  total_episodes: 493
+  total_loss: -0.999444813758899
+  total_steps: 150000
+  total_time: 437.1619985103607
 
 ===== gail Training Iteration 15 =====:
   adv_mean: null
-  discriminator_loss: 0.018268705889558753
-  entropy: 1.267164858793601
-  episode_reward: -0.335151326446544
-  frame_per_second: 294
-  gail_reward: 0.0027440723586224544
-  grad_norm: 2.2403283073734013
+  discriminator_loss: 0.04220119263881292
+  entropy: 1.4486385171230023
+  episode_reward: -1.5293380895956787
+  frame_per_second: 343
+  gail_reward: 0.012781461570650722
+  grad_norm: 2.7232478441336214
   iteration: 15
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9999903304454608
-  ratio: 1.0000787902336854
+  policy_loss: -1.0032313340749497
+  ratio: 1.0034753807080097
   success_rate: 0.0
-  total_episodes: 494
-  total_loss: -0.9999903319737851
-  total_steps: 320000
-  total_time: 1086.0279536247253
+  total_episodes: 558
+  total_loss: -1.0032313473713703
+  total_steps: 160000
+  total_time: 466.2125172615051
 
 ===== gail Training Iteration 16 =====:
   adv_mean: null
-  discriminator_loss: 0.018303925706557214
-  entropy: 1.1926860687060235
-  episode_reward: 0.6442593970534163
-  frame_per_second: 293
-  gail_reward: 0.0032076345229049763
-  grad_norm: 2.371806115294114
+  discriminator_loss: 0.04016938422066279
+  entropy: 1.329014004805149
+  episode_reward: -1.5895192172428687
+  frame_per_second: 342
+  gail_reward: 0.008601920883386181
+  grad_norm: 2.4088467348844578
   iteration: 16
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9989503312569398
-  ratio: 0.9990585910968292
+  policy_loss: -1.00046943349716
+  ratio: 1.0005812247594197
   success_rate: 0.0
-  total_episodes: 561
-  total_loss: -0.9989503349249179
-  total_steps: 340000
-  total_time: 1159.2167556285858
+  total_episodes: 622
+  total_loss: -1.0004694325801653
+  total_steps: 170000
+  total_time: 495.6702151298523
 
 ===== gail Training Iteration 17 =====:
   adv_mean: null
-  discriminator_loss: 0.01759634416920539
-  entropy: 1.0658997145218727
-  episode_reward: 0.5065168667417386
-  frame_per_second: 291
-  gail_reward: 0.0022667754081806216
-  grad_norm: 2.561886121141605
+  discriminator_loss: 0.03609171670455581
+  entropy: 1.1487865050633748
+  episode_reward: -1.800081695834715
+  frame_per_second: 341
+  gail_reward: 0.010694357322361799
+  grad_norm: 2.8771897812684375
   iteration: 17
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0003405505265945
-  ratio: 1.000502146818699
+  policy_loss: -1.001771955153881
+  ratio: 1.0020186327970946
   success_rate: 0.0
-  total_episodes: 632
-  total_loss: -1.000340554347405
-  total_steps: 360000
-  total_time: 1233.4416737556458
+  total_episodes: 704
+  total_loss: -1.0017719634068318
+  total_steps: 180000
+  total_time: 526.7970435619354
 
 ===== gail Training Iteration 18 =====:
   adv_mean: null
-  discriminator_loss: 0.01513459846804229
-  entropy: 0.9118908581061241
-  episode_reward: -0.37444576365616183
-  frame_per_second: 289
-  gail_reward: 0.004429544056526935
-  grad_norm: 2.8177384509490087
+  discriminator_loss: 0.03072869391180575
+  entropy: 1.147220164995927
+  episode_reward: -2.1310561324247983
+  frame_per_second: 340
+  gail_reward: 0.011306092102462665
+  grad_norm: 2.735684426778402
   iteration: 18
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0002902207466273
-  ratio: 1.0004604338071286
+  policy_loss: -0.9991519646766859
+  ratio: 0.9993439056934454
   success_rate: 0.0
-  total_episodes: 712
-  total_loss: -1.000290223191946
-  total_steps: 380000
-  total_time: 1310.5695867538452
+  total_episodes: 784
+  total_loss: -0.9991519697201557
+  total_steps: 190000
+  total_time: 557.7173764705658
 
 ===== gail Training Iteration 19 =====:
   adv_mean: null
-  discriminator_loss: 0.012340940261791007
-  entropy: 0.8867594998616438
-  episode_reward: -0.40149594151895135
-  frame_per_second: 289
-  gail_reward: 0.002937359822382673
-  grad_norm: 2.7454758461469257
+  discriminator_loss: 0.02441088377784651
+  entropy: 0.9581190631939814
+  episode_reward: -2.590391796948831
+  frame_per_second: 339
+  gail_reward: 0.001027288336160545
+  grad_norm: 3.765122837592394
   iteration: 19
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9994516336765045
-  ratio: 0.9995732684930165
+  policy_loss: -1.0004053202959207
+  ratio: 1.0008121762520228
   success_rate: 0.0
-  total_episodes: 774
-  total_loss: -0.9994516362746556
-  total_steps: 400000
-  total_time: 1383.7806701660156
+  total_episodes: 881
+  total_loss: -1.0004053254922232
+  total_steps: 200000
+  total_time: 589.9683048725128
 
 ===== gail Training Iteration 20 =====:
   adv_mean: null
-  discriminator_loss: 0.011997701272775885
-  entropy: 0.8972317895828149
-  episode_reward: -0.549060538167146
-  frame_per_second: 287
-  gail_reward: 0.004582746116629539
-  grad_norm: 4.011065913469364
+  discriminator_loss: 0.01846012182903882
+  entropy: 0.77765344671714
+  episode_reward: -2.876430155947013
+  frame_per_second: 335
+  gail_reward: 0.002497919639930702
+  grad_norm: 4.364348191634202
   iteration: 20
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9992086451787215
-  ratio: 0.999294573145035
+  policy_loss: -1.0016990076272916
+  ratio: 1.0023118609037154
   success_rate: 0.0
-  total_episodes: 845
-  total_loss: -0.9992086435739811
-  total_steps: 420000
-  total_time: 1458.6932599544525
+  total_episodes: 995
+  total_loss: -1.00169901572741
+  total_steps: 210000
+  total_time: 625.29039478302
 
 Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter20.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
 ===== gail Training Iteration 21 =====:
   adv_mean: null
-  discriminator_loss: 0.011450541948225016
-  entropy: 0.7963389755823673
-  episode_reward: -1.1795437806382205
-  frame_per_second: 286
-  gail_reward: 0.007276465567813899
-  grad_norm: 3.035362093188824
+  discriminator_loss: 0.01799143502393212
+  entropy: 0.706837916527039
+  episode_reward: -2.9092932631338404
+  frame_per_second: 331
+  gail_reward: 0.005114689185164677
+  grad_norm: 3.982611841116196
   iteration: 21
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0008894965434685
-  ratio: 1.0010498216518988
+  policy_loss: -1.0001054335863162
+  ratio: 1.0004578281671572
   success_rate: 0.0
-  total_episodes: 936
-  total_loss: -1.0008894975368794
-  total_steps: 440000
-  total_time: 1534.0125122070312
+  total_episodes: 1131
+  total_loss: -1.0001054380184564
+  total_steps: 220000
+  total_time: 663.0107729434967
 
 ===== gail Training Iteration 22 =====:
   adv_mean: null
-  discriminator_loss: 0.012614801196002353
-  entropy: 0.684630107268309
-  episode_reward: -1.3683762605291958
-  frame_per_second: 285
-  gail_reward: 0.005479521000942884
-  grad_norm: 3.4211392543254755
+  discriminator_loss: 0.015644898572459053
+  entropy: 0.5619133477027599
+  episode_reward: -2.7200091351955398
+  frame_per_second: 329
+  gail_reward: 0.007427617285448389
+  grad_norm: 4.215694481898577
   iteration: 22
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0013380421277804
-  ratio: 1.0015053950059107
+  policy_loss: -1.001851993952042
+  ratio: 1.0022224336098402
   success_rate: 0.0
-  total_episodes: 1044
-  total_loss: -1.001338048470326
-  total_steps: 460000
-  total_time: 1613.0938456058502
+  total_episodes: 1245
+  total_loss: -1.0018519928822152
+  total_steps: 230000
+  total_time: 698.2671887874603
 
 ===== gail Training Iteration 23 =====:
   adv_mean: null
-  discriminator_loss: 0.012682895512821583
-  entropy: 0.6138753858514321
-  episode_reward: -1.3744148523278006
-  frame_per_second: 283
-  gail_reward: 0.0017700632115846906
-  grad_norm: 3.3346049070358275
+  discriminator_loss: 0.015636341113191194
+  entropy: 0.4508250150160912
+  episode_reward: -2.6003706965597484
+  frame_per_second: 328
+  gail_reward: 0.0025722735864408793
+  grad_norm: 5.6526614329753775
   iteration: 23
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -0.9994943823569861
-  ratio: 0.9996145908649151
+  policy_loss: -0.9994152069091797
+  ratio: 1.0000885812135842
   success_rate: 0.0
-  total_episodes: 1175
-  total_loss: -0.9994943830447319
-  total_steps: 480000
-  total_time: 1694.3091666698456
+  total_episodes: 1350
+  total_loss: -0.9994152110356551
+  total_steps: 240000
+  total_time: 731.6563012599945
 
 ===== gail Training Iteration 24 =====:
   adv_mean: null
-  discriminator_loss: 0.010572832587730284
-  entropy: 0.45340887495340443
-  episode_reward: -0.8735277250165151
-  frame_per_second: 281
-  gail_reward: 0.005445629476945704
-  grad_norm: 3.584920404622188
+  discriminator_loss: 0.013068970065348996
+  entropy: 0.3724399610589712
+  episode_reward: -2.455032136463212
+  frame_per_second: 327
+  gail_reward: 0.0017194398525857534
+  grad_norm: 4.850049524888014
   iteration: 24
   log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
-  policy_loss: -1.0007665348358643
-  ratio: 1.0009426611356247
+  policy_loss: -0.9986917540048942
+  ratio: 0.9989982817417536
   success_rate: 0.0
-  total_episodes: 1282
-  total_loss: -1.0007665405670803
-  total_steps: 500000
-  total_time: 1774.7406024932861
+  total_episodes: 1436
+  total_loss: -0.9986917598125262
+  total_steps: 250000
+  total_time: 764.1680958271027
 
+===== gail Training Iteration 25 =====:
+  adv_mean: null
+  discriminator_loss: 0.01168965356818472
+  entropy: 0.3024224666830821
+  episode_reward: -2.4846829924640863
+  frame_per_second: 326
+  gail_reward: 0.0014081054092504276
+  grad_norm: 5.832802148048694
+  iteration: 25
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9986232263919634
+  ratio: 0.9991895559506538
+  success_rate: 0.0
+  total_episodes: 1528
+  total_loss: -0.9986232332694225
+  total_steps: 260000
+  total_time: 796.537210226059
+
+===== gail Training Iteration 26 =====:
+  adv_mean: null
+  discriminator_loss: 0.010576318405293978
+  entropy: 0.1327508018280451
+  episode_reward: -2.4431465796280314
+  frame_per_second: 326
+  gail_reward: 0.001504012834182224
+  grad_norm: 5.152557025276698
+  iteration: 26
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -1.001652917189476
+  ratio: 1.0019241874034588
+  success_rate: 0.0
+  total_episodes: 1610
+  total_loss: -1.0016529194819621
+  total_steps: 270000
+  total_time: 827.1576311588287
+
+===== gail Training Iteration 27 =====:
+  adv_mean: null
+  discriminator_loss: 0.008773915644941064
+  entropy: 0.056426017998287885
+  episode_reward: -2.609319914217833
+  frame_per_second: 325
+  gail_reward: 0.0006522453212080738
+  grad_norm: 7.67277827232312
+  iteration: 27
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -1.0006163717844547
+  ratio: 1.0014797736436893
+  success_rate: 0.0
+  total_episodes: 1695
+  total_loss: -1.0006163818713947
+  total_steps: 280000
+  total_time: 858.9551124572754
+
+===== gail Training Iteration 28 =====:
+  adv_mean: null
+  discriminator_loss: 0.006693553599455835
+  entropy: -0.09526004537295263
+  episode_reward: -2.6944754875068293
+  frame_per_second: 324
+  gail_reward: 0.0016973905299658863
+  grad_norm: 8.333850845618125
+  iteration: 28
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9997512653852121
+  ratio: 1.0009611123647446
+  success_rate: 0.0
+  total_episodes: 1786
+  total_loss: -0.9997512811269516
+  total_steps: 290000
+  total_time: 892.3107132911682
+
+===== gail Training Iteration 29 =====:
+  adv_mean: null
+  discriminator_loss: 0.006039132675952994
+  entropy: -0.1454719303534008
+  episode_reward: -2.677143825272148
+  frame_per_second: 324
+  gail_reward: 0.0005246510415767821
+  grad_norm: 7.89706260179862
+  iteration: 29
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9987548948862613
+  ratio: 0.9991873747263199
+  success_rate: 0.0
+  total_episodes: 1873
+  total_loss: -0.9987548945805965
+  total_steps: 300000
+  total_time: 924.4432370662689
+
+===== gail Training Iteration 30 =====:
+  adv_mean: null
+  discriminator_loss: 0.006403739495241704
+  entropy: -0.22124672602766599
+  episode_reward: -2.6231073216849126
+  frame_per_second: 324
+  gail_reward: 0.0015078598927431859
+  grad_norm: 8.555104814890104
+  iteration: 30
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9990096469720204
+  ratio: 0.999755790294745
+  success_rate: 0.0
+  total_episodes: 1961
+  total_loss: -0.9990096526268201
+  total_steps: 310000
+  total_time: 955.4535913467407
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter30.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 31 =====:
+  adv_mean: null
+  discriminator_loss: 0.00660976332557113
+  entropy: -0.3096420298020045
+  episode_reward: -2.5858061206438014
+  frame_per_second: 324
+  gail_reward: 0.0015224549527211378
+  grad_norm: 9.045275637431022
+  iteration: 31
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9992074616444416
+  ratio: 0.9998125956608699
+  success_rate: 0.0
+  total_episodes: 2036
+  total_loss: -0.9992074663822468
+  total_steps: 320000
+  total_time: 986.4012746810913
+
+===== gail Training Iteration 32 =====:
+  adv_mean: null
+  discriminator_loss: 0.0070571065726630295
+  entropy: -0.36467019075002427
+  episode_reward: -2.446424797708971
+  frame_per_second: 324
+  gail_reward: 3.47415534552289e-05
+  grad_norm: 10.0902708421915
+  iteration: 32
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9980897415906955
+  ratio: 0.9990659725971711
+  success_rate: 0.0
+  total_episodes: 2105
+  total_loss: -0.998089748315322
+  total_steps: 330000
+  total_time: 1016.7382524013519
+
+===== gail Training Iteration 33 =====:
+  adv_mean: null
+  discriminator_loss: 0.006164785105442533
+  entropy: -0.515695389570334
+  episode_reward: -2.3543013897486174
+  frame_per_second: 324
+  gail_reward: 0.000547145596180762
+  grad_norm: 14.449772677971767
+  iteration: 33
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9978033438707009
+  ratio: 0.9997431223209088
+  success_rate: 0.0
+  total_episodes: 2175
+  total_loss: -0.9978033599181053
+  total_steps: 340000
+  total_time: 1046.8231010437012
+
+===== gail Training Iteration 34 =====:
+  adv_mean: null
+  discriminator_loss: 0.004416164020912197
+  entropy: -0.565169137257796
+  episode_reward: -2.4450079162160487
+  frame_per_second: 324
+  gail_reward: 0.002414842626939599
+  grad_norm: 14.453281267789693
+  iteration: 34
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9989122161498436
+  ratio: 1.000948678683012
+  success_rate: 0.0
+  total_episodes: 2256
+  total_loss: -0.9989122295990969
+  total_steps: 350000
+  total_time: 1077.9774570465088
+
+===== gail Training Iteration 35 =====:
+  adv_mean: null
+  discriminator_loss: 0.004071578700304366
+  entropy: -0.6492835200749911
+  episode_reward: -2.5319239043912285
+  frame_per_second: 324
+  gail_reward: 0.00010962737002652526
+  grad_norm: 16.153208899497987
+  iteration: 35
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9968565124731797
+  ratio: 0.9990989154730088
+  success_rate: 0.0
+  total_episodes: 2341
+  total_loss: -0.9968565243941087
+  total_steps: 360000
+  total_time: 1110.0849702358246
+
+===== gail Training Iteration 36 =====:
+  adv_mean: null
+  discriminator_loss: 0.004719333242190679
+  entropy: -0.7145246764024099
+  episode_reward: -2.4836610692908887
+  frame_per_second: 324
+  gail_reward: 0.006196882326800663
+  grad_norm: 16.702454674855257
+  iteration: 36
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9973091327227079
+  ratio: 0.9994507976067372
+  success_rate: 0.0
+  total_episodes: 2423
+  total_loss: -0.997309143268145
+  total_steps: 370000
+  total_time: 1140.2920892238617
+
+===== gail Training Iteration 37 =====:
+  adv_mean: null
+  discriminator_loss: 0.004385899476712952
+  entropy: -0.7762473855263148
+  episode_reward: -2.47213777475003
+  frame_per_second: 323
+  gail_reward: 0.0005258209388277744
+  grad_norm: 16.937295973912263
+  iteration: 37
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9971269104725276
+  ratio: 0.9989679474097032
+  success_rate: 0.0
+  total_episodes: 2511
+  total_loss: -0.9971269184198135
+  total_steps: 380000
+  total_time: 1173.150755405426
+
+===== gail Training Iteration 38 =====:
+  adv_mean: null
+  discriminator_loss: 0.004197517186987217
+  entropy: -0.8610192471589797
+  episode_reward: -2.5437710135235254
+  frame_per_second: 323
+  gail_reward: 0.002657082389580468
+  grad_norm: 20.486474490318543
+  iteration: 38
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9965209513138502
+  ratio: 0.9992099427259885
+  success_rate: 0.0
+  total_episodes: 2604
+  total_loss: -0.9965209679725843
+  total_steps: 390000
+  total_time: 1205.7875092029572
+
+===== gail Training Iteration 39 =====:
+  adv_mean: null
+  discriminator_loss: 0.003561514894747047
+  entropy: -0.9825176754058935
+  episode_reward: -2.6040963954382015
+  frame_per_second: 323
+  gail_reward: 0.000534375345178444
+  grad_norm: 26.04852737310605
+  iteration: 39
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9957606526521536
+  ratio: 0.9995239121791644
+  success_rate: 0.0
+  total_episodes: 2694
+  total_loss: -0.9957606662542392
+  total_steps: 400000
+  total_time: 1237.2903127670288
+
+===== gail Training Iteration 40 =====:
+  adv_mean: null
+  discriminator_loss: 0.0035564215298505494
+  entropy: -1.0695352777456626
+  episode_reward: -2.598895888368543
+  frame_per_second: 323
+  gail_reward: 1.9158072270477953e-07
+  grad_norm: 27.797469970813165
+  iteration: 40
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9968687291328724
+  ratio: 1.0010097441000816
+  success_rate: 0.0
+  total_episodes: 2772
+  total_loss: -0.9968687505294115
+  total_steps: 410000
+  total_time: 1268.7260642051697
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter40.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 41 =====:
+  adv_mean: null
+  discriminator_loss: 0.002998230314887433
+  entropy: -1.1438531343753522
+  episode_reward: -2.688535801054523
+  frame_per_second: 322
+  gail_reward: 0.00010085604501513538
+  grad_norm: 27.906223511084534
+  iteration: 41
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9971195784898904
+  ratio: 1.000241820475994
+  success_rate: 0.0
+  total_episodes: 2864
+  total_loss: -0.9971195890353276
+  total_steps: 420000
+  total_time: 1301.2450726032257
+
+===== gail Training Iteration 42 =====:
+  adv_mean: null
+  discriminator_loss: 0.0018926905762409428
+  entropy: -1.2868973224590987
+  episode_reward: -2.6576752402221513
+  frame_per_second: 322
+  gail_reward: 0.0007570518603106627
+  grad_norm: 31.25545570880939
+  iteration: 42
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9964197719708467
+  ratio: 1.0001597028512221
+  success_rate: 0.0
+  total_episodes: 2951
+  total_loss: -0.9964197866427593
+  total_steps: 430000
+  total_time: 1332.7256963253021
+
+===== gail Training Iteration 43 =====:
+  adv_mean: null
+  discriminator_loss: 0.0016179451012936997
+  entropy: -1.4554189706460023
+  episode_reward: -2.697932950181439
+  frame_per_second: 322
+  gail_reward: 8.983374041119346e-05
+  grad_norm: 44.877429162462555
+  iteration: 43
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9950048061517569
+  ratio: 1.0011429708737594
+  success_rate: 0.0
+  total_episodes: 3029
+  total_loss: -0.9950048299936148
+  total_steps: 440000
+  total_time: 1364.1106543540955
+
+===== gail Training Iteration 44 =====:
+  adv_mean: null
+  discriminator_loss: 0.0012793286648123587
+  entropy: -1.6247864078252743
+  episode_reward: -2.7275943206834574
+  frame_per_second: 322
+  gail_reward: 0.000604507932103633
+  grad_norm: 46.870476401157866
+  iteration: 44
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9952238197510059
+  ratio: 1.0006126947892018
+  success_rate: 0.0
+  total_episodes: 3096
+  total_loss: -0.9952238457325178
+  total_steps: 450000
+  total_time: 1393.8574981689453
+
+===== gail Training Iteration 45 =====:
+  adv_mean: null
+  discriminator_loss: 0.0014908699718804341
+  entropy: -1.752469425018017
+  episode_reward: -2.7102970793642003
+  frame_per_second: 323
+  gail_reward: 0.00014089751401535558
+  grad_norm: 61.788287379955634
+  iteration: 45
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9904324724124028
+  ratio: 0.9995608413830782
+  success_rate: 0.0
+  total_episodes: 3173
+  total_loss: -0.9904324959485958
+  total_steps: 460000
+  total_time: 1423.9898805618286
+
+===== gail Training Iteration 46 =====:
+  adv_mean: null
+  discriminator_loss: 0.0010236349134617902
+  entropy: -1.9145419218601325
+  episode_reward: -2.7124978139469476
+  frame_per_second: 323
+  gail_reward: 3.4450223840674603e-05
+  grad_norm: 76.19591026886916
+  iteration: 46
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9887206786718123
+  ratio: 0.9998823399727161
+  success_rate: 0.0
+  total_episodes: 3234
+  total_loss: -0.9887207063344808
+  total_steps: 470000
+  total_time: 1453.780519247055
+
+===== gail Training Iteration 47 =====:
+  adv_mean: null
+  discriminator_loss: 0.0014922113512651637
+  entropy: -1.9151269674301148
+  episode_reward: -2.7372708113547155
+  frame_per_second: 323
+  gail_reward: 0.0019612281581757067
+  grad_norm: 74.20507706189767
+  iteration: 47
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.988028657130706
+  ratio: 0.9996964486745687
+  success_rate: 0.0
+  total_episodes: 3312
+  total_loss: -0.9880286811253963
+  total_steps: 480000
+  total_time: 1483.821130990982
+
+===== gail Training Iteration 48 =====:
+  adv_mean: null
+  discriminator_loss: 0.0017476815943335822
+  entropy: -2.047016684519939
+  episode_reward: -2.7321125192015097
+  frame_per_second: 323
+  gail_reward: 7.110878734284854e-05
+  grad_norm: 80.04806076624455
+  iteration: 48
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9902484643153655
+  ratio: 1.0006269396879734
+  success_rate: 0.0
+  total_episodes: 3397
+  total_loss: -0.9902484983969957
+  total_steps: 490000
+  total_time: 1515.6584465503693
+
+===== gail Training Iteration 49 =====:
+  adv_mean: null
+  discriminator_loss: 0.0009800419994701606
+  entropy: -2.2067371979737893
+  episode_reward: -2.7508200853195848
+  frame_per_second: 323
+  gail_reward: 3.899520678108577e-05
+  grad_norm: 115.09481533307296
+  iteration: 49
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9825699364527678
+  ratio: 0.9993267502540197
+  success_rate: 0.0
+  total_episodes: 3467
+  total_loss: -0.9825699712985602
+  total_steps: 500000
+  total_time: 1546.7273917198181
+
+===== gail Training Iteration 50 =====:
+  adv_mean: null
+  discriminator_loss: 0.0017740055600452018
+  entropy: -2.3608983039855955
+  episode_reward: -2.7668960781500873
+  frame_per_second: 322
+  gail_reward: 0.008575541170266194
+  grad_norm: 124.74444792759724
+  iteration: 50
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9842384699063423
+  ratio: 1.0010486853428375
+  success_rate: 0.0
+  total_episodes: 3550
+  total_loss: -0.9842385053634644
+  total_steps: 510000
+  total_time: 1579.368134021759
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter50.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 51 =====:
+  adv_mean: null
+  discriminator_loss: 0.0007701771615751194
+  entropy: -2.494976060818403
+  episode_reward: -2.7416410187921407
+  frame_per_second: 322
+  gail_reward: 0.00017523097313898735
+  grad_norm: 150.72139160052325
+  iteration: 51
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9820765981307397
+  ratio: 1.0004524090351203
+  success_rate: 0.0
+  total_episodes: 3624
+  total_loss: -0.9820766407709856
+  total_steps: 520000
+  total_time: 1610.6426043510437
+
+===== gail Training Iteration 52 =====:
+  adv_mean: null
+  discriminator_loss: 0.0009288304630013628
+  entropy: -2.6345468246019803
+  episode_reward: -2.7739082493348715
+  frame_per_second: 322
+  gail_reward: 0.0003502651297402246
+  grad_norm: 191.77544717360766
+  iteration: 52
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9741022952092
+  ratio: 1.00027242455727
+  success_rate: 0.0
+  total_episodes: 3709
+  total_loss: -0.9741023326531435
+  total_steps: 530000
+  total_time: 1642.7031631469727
+
+===== gail Training Iteration 53 =====:
+  adv_mean: null
+  discriminator_loss: 0.0018477554280108366
+  entropy: -2.6897435255539723
+  episode_reward: -2.774197017471552
+  frame_per_second: 322
+  gail_reward: 1.562430429191572e-05
+  grad_norm: 182.52627291985047
+  iteration: 53
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9746907368684427
+  ratio: 0.9985570280979841
+  success_rate: 0.0
+  total_episodes: 3802
+  total_loss: -0.9746907672820947
+  total_steps: 540000
+  total_time: 1674.5410525798798
+
+===== gail Training Iteration 54 =====:
+  adv_mean: null
+  discriminator_loss: 0.0010373865672164584
+  entropy: -2.7428497821856768
+  episode_reward: -2.7668644741708373
+  frame_per_second: 322
+  gail_reward: 3.162481802507663e-05
+  grad_norm: 183.20454665942069
+  iteration: 54
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9745150998616829
+  ratio: 1.0003502336832193
+  success_rate: 0.0
+  total_episodes: 3880
+  total_loss: -0.9745151369999616
+  total_steps: 550000
+  total_time: 1704.5572106838226
+
+===== gail Training Iteration 55 =====:
+  adv_mean: null
+  discriminator_loss: 0.0007983961126042115
+  entropy: -2.8834984296407455
+  episode_reward: -2.746948239066707
+  frame_per_second: 322
+  gail_reward: 6.18835795718881e-05
+  grad_norm: 250.50463200471341
+  iteration: 55
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.958702636223573
+  ratio: 0.9991077218300257
+  success_rate: 0.0
+  total_episodes: 3955
+  total_loss: -0.9587026805449754
+  total_steps: 560000
+  total_time: 1735.5792844295502
+
+===== gail Training Iteration 56 =====:
+  adv_mean: null
+  discriminator_loss: 0.0007144139535115119
+  entropy: -2.941939066006587
+  episode_reward: -2.719925983557823
+  frame_per_second: 322
+  gail_reward: 6.127249945655841e-06
+  grad_norm: 268.5928332628348
+  iteration: 56
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9592211413077819
+  ratio: 1.0001492818196616
+  success_rate: 0.0
+  total_episodes: 4019
+  total_loss: -0.9592211873103411
+  total_steps: 570000
+  total_time: 1765.0572926998138
+
+===== gail Training Iteration 57 =====:
+  adv_mean: null
+  discriminator_loss: 0.000578466665193061
+  entropy: -3.004400845063038
+  episode_reward: -2.6936515319077925
+  frame_per_second: 323
+  gail_reward: 7.288415374251856e-05
+  grad_norm: 261.7326618445225
+  iteration: 57
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9603313852579166
+  ratio: 0.9969825018674899
+  success_rate: 0.0
+  total_episodes: 4084
+  total_loss: -0.9603314253000113
+  total_steps: 580000
+  total_time: 1795.0000383853912
+
+===== gail Training Iteration 58 =====:
+  adv_mean: null
+  discriminator_loss: 0.0009826879135448215
+  entropy: -3.0376496620667286
+  episode_reward: -2.697093716260875
+  frame_per_second: 323
+  gail_reward: 0.0001706783506494666
+  grad_norm: 269.5593875481532
+  iteration: 58
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.963750632909628
+  ratio: 0.9986256182193756
+  success_rate: 0.0
+  total_episodes: 4159
+  total_loss: -0.9637506750913767
+  total_steps: 590000
+  total_time: 1825.78799700737
+
+===== gail Training Iteration 59 =====:
+  adv_mean: null
+  discriminator_loss: 0.0008958877053975683
+  entropy: -3.2167735686668983
+  episode_reward: -2.702722972018599
+  frame_per_second: 323
+  gail_reward: 1.1508986298663214e-05
+  grad_norm: 290.8910533574911
+  iteration: 59
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9703414316360767
+  ratio: 1.000415447430733
+  success_rate: 0.0
+  total_episodes: 4242
+  total_loss: -0.9703414739706577
+  total_steps: 600000
+  total_time: 1857.198301076889
+
+===== gail Training Iteration 60 =====:
+  adv_mean: null
+  discriminator_loss: 0.0013648381454121961
+  entropy: -3.253830237266345
+  episode_reward: -2.677375636695084
+  frame_per_second: 322
+  gail_reward: 8.27868526264352e-06
+  grad_norm: 338.99512951343485
+  iteration: 60
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9572959461273292
+  ratio: 0.9990607431301703
+  success_rate: 0.0
+  total_episodes: 4339
+  total_loss: -0.9572959861694238
+  total_steps: 610000
+  total_time: 1889.5571162700653
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter60.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 61 =====:
+  adv_mean: null
+  discriminator_loss: 0.0010392808997812754
+  entropy: -3.3417615523705115
+  episode_reward: -2.6571232079081035
+  frame_per_second: 323
+  gail_reward: 0.0008178533175407956
+  grad_norm: 404.5642482525263
+  iteration: 61
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9487457425166399
+  ratio: 0.9969509867521432
+  success_rate: 0.0
+  total_episodes: 4407
+  total_loss: -0.9487457874493721
+  total_steps: 620000
+  total_time: 1919.140751361847
+
+===== gail Training Iteration 62 =====:
+  adv_mean: null
+  discriminator_loss: 0.0008475960145764233
+  entropy: -3.389562183771378
+  episode_reward: -2.642889938898006
+  frame_per_second: 323
+  gail_reward: 1.4849176736438845e-05
+  grad_norm: 359.1197149466246
+  iteration: 62
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9573597105649801
+  ratio: 0.99952719440827
+  success_rate: 0.0
+  total_episodes: 4468
+  total_loss: -0.9573597564147069
+  total_steps: 630000
+  total_time: 1947.4852566719055
+
+===== gail Training Iteration 63 =====:
+  adv_mean: null
+  discriminator_loss: 0.0008878267840859968
+  entropy: -3.3108257446533593
+  episode_reward: -2.652946087849135
+  frame_per_second: 323
+  gail_reward: 1.7533478980205985e-05
+  grad_norm: 345.74597862439276
+  iteration: 63
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9553457770592128
+  ratio: 0.9981776589002365
+  success_rate: 0.0
+  total_episodes: 4533
+  total_loss: -0.9553458233674367
+  total_steps: 640000
+  total_time: 1977.6243288516998
+
+===== gail Training Iteration 64 =====:
+  adv_mean: null
+  discriminator_loss: 0.0009783634507208024
+  entropy: -3.506617675683437
+  episode_reward: -2.6528182229733144
+  frame_per_second: 323
+  gail_reward: 6.318401655311718e-05
+  grad_norm: 383.7435571132562
+  iteration: 64
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9524901429812114
+  ratio: 0.9980326371315198
+  success_rate: 0.0
+  total_episodes: 4591
+  total_loss: -0.9524901924989162
+  total_steps: 650000
+  total_time: 2006.3932733535767
+
+===== gail Training Iteration 65 =====:
+  adv_mean: null
+  discriminator_loss: 0.0010514672700120415
+  entropy: -3.621085080733666
+  episode_reward: -2.670877497388962
+  frame_per_second: 324
+  gail_reward: 0.0006532686025028129
+  grad_norm: 457.2697071686769
+  iteration: 65
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9481549165187738
+  ratio: 1.0021672670657817
+  success_rate: 0.0
+  total_episodes: 4650
+  total_loss: -0.9481549680233001
+  total_steps: 660000
+  total_time: 2036.3862416744232
+
+===== gail Training Iteration 66 =====:
+  adv_mean: null
+  discriminator_loss: 0.00034498851236347804
+  entropy: -3.7351609303401068
+  episode_reward: -2.6764514243075945
+  frame_per_second: 324
+  gail_reward: 3.7860306467616912e-06
+  grad_norm: 470.79398853931673
+  iteration: 66
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9445052382273552
+  ratio: 1.0012468192821895
+  success_rate: 0.0
+  total_episodes: 4700
+  total_loss: -0.9445052836185847
+  total_steps: 670000
+  total_time: 2065.243682384491
+
+===== gail Training Iteration 67 =====:
+  adv_mean: null
+  discriminator_loss: 0.0007775296236213937
+  entropy: -3.781043054507329
+  episode_reward: -2.6605187484551367
+  frame_per_second: 324
+  gail_reward: 0.0002466813619647814
+  grad_norm: 529.4983296253743
+  iteration: 67
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9347939141285725
+  ratio: 1.0024501539193666
+  success_rate: 0.0
+  total_episodes: 4750
+  total_loss: -0.9347939596726345
+  total_steps: 680000
+  total_time: 2093.7474999427795
+
+===== gail Training Iteration 68 =====:
+  adv_mean: null
+  discriminator_loss: 0.0005319141333004861
+  entropy: -3.931278977027306
+  episode_reward: -2.6555604571630584
+  frame_per_second: 325
+  gail_reward: 4.002166569814738e-06
+  grad_norm: 507.23456127826984
+  iteration: 68
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.951065120788721
+  ratio: 0.9996474894193502
+  success_rate: 0.0
+  total_episodes: 4797
+  total_loss: -0.9510651695422637
+  total_steps: 690000
+  total_time: 2120.7871561050415
+
+===== gail Training Iteration 69 =====:
+  adv_mean: null
+  discriminator_loss: 0.0004683761985553758
+  entropy: -4.019260551990607
+  episode_reward: -2.6569596014644987
+  frame_per_second: 326
+  gail_reward: 1.2046341961043557e-05
+  grad_norm: 628.7057829930233
+  iteration: 69
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9205185775573437
+  ratio: 1.0022263736296924
+  success_rate: 0.0
+  total_episodes: 4836
+  total_loss: -0.9205186273807134
+  total_steps: 700000
+  total_time: 2147.01065659523
+
+===== gail Training Iteration 70 =====:
+  adv_mean: null
+  discriminator_loss: 0.00039148644023293347
+  entropy: -4.12835028844002
+  episode_reward: -2.6785725197014143
+  frame_per_second: 326
+  gail_reward: 0.00044860874048213305
+  grad_norm: 672.3508191267649
+  iteration: 70
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.9209708164899777
+  ratio: 1.0004525688978343
+  success_rate: 0.0
+  total_episodes: 4882
+  total_loss: -0.9209708652435205
+  total_steps: 710000
+  total_time: 2174.0160682201385
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter70.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 71 =====:
+  adv_mean: null
+  discriminator_loss: 0.00040432601425831576
+  entropy: -4.247119654753269
+  episode_reward: -2.703436734401866
+  frame_per_second: 326
+  gail_reward: 7.267625881887887e-06
+  grad_norm: 851.8852542718251
+  iteration: 71
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8915847360323637
+  ratio: 0.9994489662158184
+  success_rate: 0.0
+  total_episodes: 4930
+  total_loss: -0.8915847792075231
+  total_steps: 720000
+  total_time: 2202.428925037384
+
+===== gail Training Iteration 72 =====:
+  adv_mean: null
+  discriminator_loss: 0.001386902619569132
+  entropy: -4.571265905331343
+  episode_reward: -2.7096899225241784
+  frame_per_second: 327
+  gail_reward: 2.464760640827844e-08
+  grad_norm: 1277.032231426239
+  iteration: 72
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8376266240309447
+  ratio: 0.9994659915948525
+  success_rate: 0.0
+  total_episodes: 4970
+  total_loss: -0.8376266651428663
+  total_steps: 730000
+  total_time: 2228.2563877105713
+
+===== gail Training Iteration 73 =====:
+  adv_mean: null
+  discriminator_loss: 0.0002988395448477231
+  entropy: -5.017666569734231
+  episode_reward: -2.7056541969890473
+  frame_per_second: 328
+  gail_reward: 0.00015762850988465242
+  grad_norm: 1975.433216165885
+  iteration: 73
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8656807749699323
+  ratio: 0.9977984747825525
+  success_rate: 0.0
+  total_episodes: 5005
+  total_loss: -0.8656808354915717
+  total_steps: 740000
+  total_time: 2253.79519033432
+
+===== gail Training Iteration 74 =====:
+  adv_mean: null
+  discriminator_loss: 0.0005479284527473792
+  entropy: -5.019478022746551
+  episode_reward: -2.696543575235651
+  frame_per_second: 328
+  gail_reward: 0.00019142850145819978
+  grad_norm: 1835.5864182349962
+  iteration: 74
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7733216384282479
+  ratio: 0.9910958285515125
+  success_rate: 0.0
+  total_episodes: 5040
+  total_loss: -0.7733216716692998
+  total_steps: 750000
+  total_time: 2280.714105606079
+
+===== gail Training Iteration 75 =====:
+  adv_mean: null
+  discriminator_loss: 0.0007564417661534697
+  entropy: -4.998504122709616
+  episode_reward: -2.681749546754474
+  frame_per_second: 329
+  gail_reward: 6.987923698966952e-05
+  grad_norm: 1694.6360546491085
+  iteration: 75
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8230001987555088
+  ratio: 1.0022998140408443
+  success_rate: 0.0
+  total_episodes: 5074
+  total_loss: -0.8230002378041927
+  total_steps: 760000
+  total_time: 2307.4198932647705
+
+===== gail Training Iteration 76 =====:
+  adv_mean: null
+  discriminator_loss: 0.00030856955945102356
+  entropy: -4.969213194724841
+  episode_reward: -2.6736970213960762
+  frame_per_second: 330
+  gail_reward: 1.8249190460641656e-06
+  grad_norm: 1882.2225171431517
+  iteration: 76
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8611044108867645
+  ratio: 1.002377163599699
+  success_rate: 0.0
+  total_episodes: 5110
+  total_loss: -0.8611044685045878
+  total_steps: 770000
+  total_time: 2333.0407025814056
+
+===== gail Training Iteration 77 =====:
+  adv_mean: null
+  discriminator_loss: 0.0003929869621437877
+  entropy: -5.146768396328657
+  episode_reward: -2.6686559930008396
+  frame_per_second: 330
+  gail_reward: 2.3292052020014334e-05
+  grad_norm: 1618.6558960205468
+  iteration: 77
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7961418354358428
+  ratio: 0.9958293836850386
+  success_rate: 0.0
+  total_episodes: 5143
+  total_loss: -0.7961418800629102
+  total_steps: 780000
+  total_time: 2358.8641958236694
+
+===== gail Training Iteration 78 =====:
+  adv_mean: null
+  discriminator_loss: 0.00048206738589921626
+  entropy: -5.038456056056878
+  episode_reward: -2.667708443660102
+  frame_per_second: 331
+  gail_reward: 2.8467418679867526e-05
+  grad_norm: 1757.6515263239542
+  iteration: 78
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8243004558178094
+  ratio: 1.002829840244391
+  success_rate: 0.0
+  total_episodes: 5183
+  total_loss: -0.8243004962419852
+  total_steps: 790000
+  total_time: 2385.2035336494446
+
+===== gail Training Iteration 79 =====:
+  adv_mean: null
+  discriminator_loss: 0.004229188204470036
+  entropy: -4.841696958052807
+  episode_reward: -2.66372394871006
+  frame_per_second: 331
+  gail_reward: 0.00016151170592564038
+  grad_norm: 1802.5948917780167
+  iteration: 79
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8115924734335679
+  ratio: 0.9965323052345179
+  success_rate: 0.0
+  total_episodes: 5243
+  total_loss: -0.8115925153096517
+  total_steps: 800000
+  total_time: 2413.289566040039
+
+===== gail Training Iteration 80 =====:
+  adv_mean: null
+  discriminator_loss: 0.0002575071334271902
+  entropy: -4.9084019159659364
+  episode_reward: -2.6742299899475914
+  frame_per_second: 331
+  gail_reward: 3.341689027412287e-05
+  grad_norm: 1555.9126099072969
+  iteration: 80
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8402052363524071
+  ratio: 1.0055930855946662
+  success_rate: 0.0
+  total_episodes: 5305
+  total_loss: -0.8402052807502257
+  total_steps: 810000
+  total_time: 2442.560315132141
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter80.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 81 =====:
+  adv_mean: null
+  discriminator_loss: 0.000421064097332792
+  entropy: -4.8699853530296915
+  episode_reward: -2.672029222758214
+  frame_per_second: 331
+  gail_reward: 7.87463995388512e-05
+  grad_norm: 1674.5347956926394
+  iteration: 81
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7944588597004231
+  ratio: 0.9990733936811105
+  success_rate: 0.0
+  total_episodes: 5369
+  total_loss: -0.794458900201015
+  total_steps: 820000
+  total_time: 2472.614162683487
+
+===== gail Training Iteration 82 =====:
+  adv_mean: null
+  discriminator_loss: 0.00033440764707801205
+  entropy: -5.047763347625732
+  episode_reward: -2.6554820539796937
+  frame_per_second: 331
+  gail_reward: 5.12724685018512e-05
+  grad_norm: 1546.2234485186063
+  iteration: 82
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8594016354817611
+  ratio: 1.0008756833198742
+  success_rate: 0.0
+  total_episodes: 5430
+  total_loss: -0.8594016854579632
+  total_steps: 830000
+  total_time: 2501.9290573596954
+
+===== gail Training Iteration 83 =====:
+  adv_mean: null
+  discriminator_loss: 0.00041566040023355576
+  entropy: -5.052372988676414
+  episode_reward: -2.6329364961261166
+  frame_per_second: 331
+  gail_reward: 5.407529015545338e-06
+  grad_norm: 1813.0494377331856
+  iteration: 83
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8140679535193321
+  ratio: 0.9967259504856207
+  success_rate: 0.0
+  total_episodes: 5483
+  total_loss: -0.8140679957010807
+  total_steps: 840000
+  total_time: 2530.1991794109344
+
+===== gail Training Iteration 84 =====:
+  adv_mean: null
+  discriminator_loss: 0.0002784317035618117
+  entropy: -5.180518321501903
+  episode_reward: -2.622929245095104
+  frame_per_second: 332
+  gail_reward: 4.666472216111008e-05
+  grad_norm: 1798.4215020913343
+  iteration: 84
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8133736851123663
+  ratio: 0.9902096933279282
+  success_rate: 0.0
+  total_episodes: 5533
+  total_loss: -0.8133737256129583
+  total_steps: 850000
+  total_time: 2558.5789926052094
+
+===== gail Training Iteration 85 =====:
+  adv_mean: null
+  discriminator_loss: 0.00040950385785757466
+  entropy: -5.190606041443654
+  episode_reward: -2.6363432186674145
+  frame_per_second: 332
+  gail_reward: 8.356603567125814e-05
+  grad_norm: 1728.7213034678728
+  iteration: 85
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7810745521233632
+  ratio: 0.991302420084293
+  success_rate: 0.0
+  total_episodes: 5603
+  total_loss: -0.7810745888031446
+  total_steps: 860000
+  total_time: 2588.201826810837
+
+===== gail Training Iteration 86 =====:
+  adv_mean: null
+  discriminator_loss: 0.0004368705905905338
+  entropy: -5.2580253637754
+  episode_reward: -2.6496199309653927
+  frame_per_second: 332
+  gail_reward: 4.561157921228024e-06
+  grad_norm: 1784.0412148622365
+  iteration: 86
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8016511814334454
+  ratio: 0.9957068036764096
+  success_rate: 0.0
+  total_episodes: 5670
+  total_loss: -0.8016512213227076
+  total_steps: 870000
+  total_time: 2617.2540254592896
+
+===== gail Training Iteration 87 =====:
+  adv_mean: null
+  discriminator_loss: 0.00032025113941832234
+  entropy: -5.292186144070747
+  episode_reward: -2.669302714707265
+  frame_per_second: 332
+  gail_reward: 8.959243682045034e-06
+  grad_norm: 1843.3228306158994
+  iteration: 87
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7878771320749551
+  ratio: 1.0188931867098197
+  success_rate: 0.0
+  total_episodes: 5730
+  total_loss: -0.7878771656980881
+  total_steps: 880000
+  total_time: 2646.6648523807526
+
+===== gail Training Iteration 88 =====:
+  adv_mean: null
+  discriminator_loss: 0.000513819814622962
+  entropy: -5.328711333641639
+  episode_reward: -2.6896144837087097
+  frame_per_second: 332
+  gail_reward: 2.7632996222611182e-06
+  grad_norm: 1704.118523279826
+  iteration: 88
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8185880954448993
+  ratio: 1.0033229190569657
+  success_rate: 0.0
+  total_episodes: 5835
+  total_loss: -0.8185881392313884
+  total_steps: 890000
+  total_time: 2680.321089744568
+
+===== gail Training Iteration 89 =====:
+  adv_mean: null
+  discriminator_loss: 0.0004328742651249484
+  entropy: -5.360829133253831
+  episode_reward: -2.683116820283861
+  frame_per_second: 331
+  gail_reward: 3.3374663994086756e-06
+  grad_norm: 1836.240946192619
+  iteration: 89
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7976887732362136
+  ratio: 1.0102527138514397
+  success_rate: 0.0
+  total_episodes: 5967
+  total_loss: -0.7976888102598679
+  total_steps: 900000
+  total_time: 2716.9813063144684
+
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+Successfully registered the following environments: ['MetaDrive-validation-v0', 'MetaDrive-10env-v0', 'MetaDrive-100envs-v0', 'MetaDrive-1000envs-v0', 'SafeMetaDrive-validation-v0', 'SafeMetaDrive-10env-v0', 'SafeMetaDrive-100envs-v0', 'SafeMetaDrive-1000envs-v0', 'MARLTollgate-v0', 'MARLBottleneck-v0', 'MARLRoundabout-v0', 'MARLIntersection-v0', 'MARLParkingLot-v0', 'MARLMetaDrive-v0'].
+Successfully registered MetaDrive environments:  ['MetaDrive-Tut-Easy-v0', 'MetaDrive-Tut-Hard-v0', 'MetaDrive-Tut-1Env-v0', 'MetaDrive-Tut-5Env-v0', 'MetaDrive-Tut-10Env-v0', 'MetaDrive-Tut-20Env-v0', 'MetaDrive-Tut-50Env-v0', 'MetaDrive-Tut-100Env-v0', 'MetaDrive-Tut-Test-v0']
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+Successfully registered the following environments: ['MetaDrive-validation-v0', 'MetaDrive-10env-v0', 'MetaDrive-100envs-v0', 'MetaDrive-1000envs-v0', 'SafeMetaDrive-validation-v0', 'SafeMetaDrive-10env-v0', 'SafeMetaDrive-100envs-v0', 'SafeMetaDrive-1000envs-v0', 'MARLTollgate-v0', 'MARLBottleneck-v0', 'MARLRoundabout-v0', 'MARLIntersection-v0', 'MARLParkingLot-v0', 'MARLMetaDrive-v0'].
+Successfully registered MetaDrive environments:  ['MetaDrive-Tut-Easy-v0', 'MetaDrive-Tut-Hard-v0', 'MetaDrive-Tut-1Env-v0', 'MetaDrive-Tut-5Env-v0', 'MetaDrive-Tut-10Env-v0', 'MetaDrive-Tut-20Env-v0', 'MetaDrive-Tut-50Env-v0', 'MetaDrive-Tut-100Env-v0', 'MetaDrive-Tut-Test-v0']
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+Successfully registered the following environments: ['MetaDrive-validation-v0', 'MetaDrive-10env-v0', 'MetaDrive-100envs-v0', 'MetaDrive-1000envs-v0', 'SafeMetaDrive-validation-v0', 'SafeMetaDrive-10env-v0', 'SafeMetaDrive-100envs-v0', 'SafeMetaDrive-1000envs-v0', 'MARLTollgate-v0', 'MARLBottleneck-v0', 'MARLRoundabout-v0', 'MARLIntersection-v0', 'MARLParkingLot-v0', 'MARLMetaDrive-v0'].
+Successfully registered MetaDrive environments:  ['MetaDrive-Tut-Easy-v0', 'MetaDrive-Tut-Hard-v0', 'MetaDrive-Tut-1Env-v0', 'MetaDrive-Tut-5Env-v0', 'MetaDrive-Tut-10Env-v0', 'MetaDrive-Tut-20Env-v0', 'MetaDrive-Tut-50Env-v0', 'MetaDrive-Tut-100Env-v0', 'MetaDrive-Tut-Test-v0']
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+Successfully registered the following environments: ['MetaDrive-validation-v0', 'MetaDrive-10env-v0', 'MetaDrive-100envs-v0', 'MetaDrive-1000envs-v0', 'SafeMetaDrive-validation-v0', 'SafeMetaDrive-10env-v0', 'SafeMetaDrive-100envs-v0', 'SafeMetaDrive-1000envs-v0', 'MARLTollgate-v0', 'MARLBottleneck-v0', 'MARLRoundabout-v0', 'MARLIntersection-v0', 'MARLParkingLot-v0', 'MARLMetaDrive-v0'].
+Successfully registered MetaDrive environments:  ['MetaDrive-Tut-Easy-v0', 'MetaDrive-Tut-Hard-v0', 'MetaDrive-Tut-1Env-v0', 'MetaDrive-Tut-5Env-v0', 'MetaDrive-Tut-10Env-v0', 'MetaDrive-Tut-20Env-v0', 'MetaDrive-Tut-50Env-v0', 'MetaDrive-Tut-100Env-v0', 'MetaDrive-Tut-Test-v0']
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+/home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/core
+Successfully registered the following environments: ['MetaDrive-validation-v0', 'MetaDrive-10env-v0', 'MetaDrive-100envs-v0', 'MetaDrive-1000envs-v0', 'SafeMetaDrive-validation-v0', 'SafeMetaDrive-10env-v0', 'SafeMetaDrive-100envs-v0', 'SafeMetaDrive-1000envs-v0', 'MARLTollgate-v0', 'MARLBottleneck-v0', 'MARLRoundabout-v0', 'MARLIntersection-v0', 'MARLParkingLot-v0', 'MARLMetaDrive-v0'].
+Successfully registered MetaDrive environments:  ['MetaDrive-Tut-Easy-v0', 'MetaDrive-Tut-Hard-v0', 'MetaDrive-Tut-1Env-v0', 'MetaDrive-Tut-5Env-v0', 'MetaDrive-Tut-10Env-v0', 'MetaDrive-Tut-20Env-v0', 'MetaDrive-Tut-50Env-v0', 'MetaDrive-Tut-100Env-v0', 'MetaDrive-Tut-Test-v0']
+===== gail Training Iteration 90 =====:
+  adv_mean: null
+  discriminator_loss: 0.0005548052814572676
+  entropy: -5.403609409087744
+  episode_reward: -2.6971067967231623
+  frame_per_second: 331
+  gail_reward: 0.001257038798230963
+  grad_norm: 1853.0247527415936
+  iteration: 90
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7952010237253629
+  ratio: 1.015876634610005
+  success_rate: 0.0
+  total_episodes: 6061
+  total_loss: -0.7952010553234663
+  total_steps: 910000
+  total_time: 2748.15447640419
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter90.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.
+===== gail Training Iteration 91 =====:
+  adv_mean: null
+  discriminator_loss: 0.00034836080249213625
+  entropy: -5.49708673892877
+  episode_reward: -2.684899622611323
+  frame_per_second: 330
+  gail_reward: 3.136452398440526e-06
+  grad_norm: 1870.1844657164354
+  iteration: 91
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.755513524932739
+  ratio: 1.0113403405134493
+  success_rate: 0.0
+  total_episodes: 6183
+  total_loss: -0.7555135568747153
+  total_steps: 920000
+  total_time: 2781.9796030521393
+
+===== gail Training Iteration 92 =====:
+  adv_mean: null
+  discriminator_loss: 0.0034555002944107226
+  entropy: -5.45159933872712
+  episode_reward: -2.658787384939727
+  frame_per_second: 330
+  gail_reward: 5.2333172667810383e-05
+  grad_norm: 1735.9969689736
+  iteration: 92
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8160576115433986
+  ratio: 0.9945349361651983
+  success_rate: 0.0
+  total_episodes: 6303
+  total_loss: -0.816057648184972
+  total_steps: 930000
+  total_time: 2815.218430519104
+
+===== gail Training Iteration 93 =====:
+  adv_mean: null
+  discriminator_loss: 0.00031381140454705487
+  entropy: -5.4441688745449754
+  episode_reward: -2.68566772550725
+  frame_per_second: 329
+  gail_reward: 1.7156180066917726e-05
+  grad_norm: 1476.8826765916285
+  iteration: 93
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.849270715086888
+  ratio: 1.0018579142215924
+  success_rate: 0.0
+  total_episodes: 6425
+  total_loss: -0.8492707574978853
+  total_steps: 940000
+  total_time: 2848.658257961273
+
+===== gail Training Iteration 94 =====:
+  adv_mean: null
+  discriminator_loss: 0.00024568559988321606
+  entropy: -5.488811415892381
+  episode_reward: -2.6784117414024506
+  frame_per_second: 329
+  gail_reward: 1.7153820795684648e-05
+  grad_norm: 1461.6671821459745
+  iteration: 94
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8524748487350268
+  ratio: 1.0008626855336702
+  success_rate: 0.0
+  total_episodes: 6534
+  total_loss: -0.8524748892356188
+  total_steps: 950000
+  total_time: 2880.857059240341
+
+===== gail Training Iteration 95 =====:
+  adv_mean: null
+  discriminator_loss: 0.00019796293498728073
+  entropy: -5.450675597557654
+  episode_reward: -2.6810387764360435
+  frame_per_second: 329
+  gail_reward: 1.3277506803159411e-05
+  grad_norm: 1465.4844220723862
+  iteration: 95
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8262648674922112
+  ratio: 0.9991218753350086
+  success_rate: 0.0
+  total_episodes: 6660
+  total_loss: -0.8262649066173113
+  total_steps: 960000
+  total_time: 2914.338963031769
+
+===== gail Training Iteration 96 =====:
+  adv_mean: null
+  discriminator_loss: 0.00024102613405527034
+  entropy: -5.573359451538477
+  episode_reward: -2.7295977339970534
+  frame_per_second: 328
+  gail_reward: 9.616794197473866e-05
+  grad_norm: 1741.0662561074282
+  iteration: 96
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8075572713063314
+  ratio: 0.997467555755224
+  success_rate: 0.0
+  total_episodes: 6824
+  total_loss: -0.8075573106606801
+  total_steps: 970000
+  total_time: 2951.661417722702
+
+===== gail Training Iteration 97 =====:
+  adv_mean: null
+  discriminator_loss: 0.00036400678935560556
+  entropy: -5.4832656591366495
+  episode_reward: -2.755960094019376
+  frame_per_second: 328
+  gail_reward: 4.72962529247758e-05
+  grad_norm: 1718.7922046905908
+  iteration: 97
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.814165266813376
+  ratio: 1.0044546026449936
+  success_rate: 0.0
+  total_episodes: 6975
+  total_loss: -0.814165308383795
+  total_steps: 980000
+  total_time: 2987.3829951286316
+
+===== gail Training Iteration 98 =====:
+  adv_mean: null
+  discriminator_loss: 0.00019413812427291515
+  entropy: -5.536676535239587
+  episode_reward: -2.748786890598944
+  frame_per_second: 327
+  gail_reward: 2.2325964994543495e-05
+  grad_norm: 1862.5451473822961
+  iteration: 98
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8153403668831556
+  ratio: 1.0020102531482011
+  success_rate: 0.0
+  total_episodes: 7143
+  total_loss: -0.8153404072309152
+  total_steps: 990000
+  total_time: 3024.9181208610535
+
+===== gail Training Iteration 99 =====:
+  adv_mean: null
+  discriminator_loss: 0.0006296647547740027
+  entropy: -5.65793778468401
+  episode_reward: -2.753344936104186
+  frame_per_second: 326
+  gail_reward: 0.0006570780868059955
+  grad_norm: 1880.9647125831018
+  iteration: 99
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.7830397397279739
+  ratio: 1.0034156058079158
+  success_rate: 0.0
+  total_episodes: 7308
+  total_loss: -0.7830397716699502
+  total_steps: 1000000
+  total_time: 3062.717978954315
+
+===== gail Training Iteration 100 =====:
+  adv_mean: null
+  discriminator_loss: 0.00045000761039631427
+  entropy: -5.715455247194339
+  episode_reward: -2.7461412341429674
+  frame_per_second: 325
+  gail_reward: 6.200273382534923e-05
+  grad_norm: 1631.1317235799936
+  iteration: 100
+  log_dir: /home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail
+  policy_loss: -0.8505016357470782
+  ratio: 0.9981941741246444
+  success_rate: 0.0
+  total_episodes: 7480
+  total_loss: -0.8505016784637403
+  total_steps: 1010000
+  total_time: 3100.5762503147125
+
+Trainer is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/checkpoint-iter100.pkl>. Progress is saved at </home/felix/Documents/GitHub/cs269_assignment-2022fall/assignment3/MetaDrive-Tut-1Env-v0/gail/progress.csv>.

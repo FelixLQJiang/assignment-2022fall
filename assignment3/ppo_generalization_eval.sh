@@ -1,7 +1,14 @@
 # Example script to run a batch of PPO generalization experiments
-for num in 1 5 10 20 50 100; do
+# for num in 1 5 10 20 50 100; do
+#   python eval_ppo.py \
+#   --log-dir MetaDrive-Tut-${num}Env-v0/ppo \
+#   --num-envs 5 \
+#   --num-episodes 100 > ppo_metadrive_${num}env_eval.log 2>&1 &
+# done
+
+for num in 5 10; do
   python eval_ppo.py \
   --log-dir MetaDrive-Tut-${num}Env-v0/ppo \
-  --num-envs 10 \
+  --num-envs 5 \
   --num-episodes 100 > ppo_metadrive_${num}env_eval.log 2>&1 &
 done

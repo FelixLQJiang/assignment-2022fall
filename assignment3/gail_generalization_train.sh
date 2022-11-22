@@ -10,11 +10,11 @@
 #   > gail_metadrive_${num}env_train.log 2>&1 &
 # done
 
-for num in 1; do
+for num in 100; do
   python train_gail.py \
   --env-id MetaDrive-Tut-${num}Env-v0 \
   --log-dir MetaDrive-Tut-${num}Env-v0 \
-  --num-envs 10 \
+  --num-envs 5 \
   --max-steps 1000000 \
   --expert-dataset-size 30000 \
   > gail_metadrive_${num}env_train.log 2>&1 &

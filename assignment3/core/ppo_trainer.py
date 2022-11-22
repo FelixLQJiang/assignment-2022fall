@@ -263,8 +263,7 @@ class PPOTrainer:
         norm_epoch = []
         ratio_epoch = []
 
-        assert advantages.shape[0] * advantages.shape[
-            1] >= self.mini_batch_size, "Number of sampled steps should more than mini batch size."
+        assert advantages.shape[0] * advantages.shape[1] >= self.mini_batch_size, "Number of sampled steps should more than mini batch size."
 
         # Train for num_sgd_steps iterations (compared to A2C which only
         # train one iteration)
